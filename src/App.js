@@ -31,7 +31,7 @@ const SearchBalance = () => {
       <br />
       <h2>Consulta</h2>
       <div className="row">
-        <div className="col-5">
+        <div className="col-lg-6 col-md-8 col-sm-12">
           <form onSubmit={ (e) => handleSubmit(e)} >
             <input  
               type='text'
@@ -45,7 +45,7 @@ const SearchBalance = () => {
             <div className = "d-grid gap-2">
               <button 
                 type="submit"
-                className = "btn btn-outline-primary mt-1 " > Comprobar 
+                className = "btn btn-outline-primary mt-2 " > Comprobar 
               </button>
             </div>       
           </form>   
